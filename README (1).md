@@ -7,6 +7,6 @@ Es mi sitio web personal creada para que otros usuarios puedan aydudar en hacer 
 --HTML
 --CSS3
 ## ruta de instalacion de git
- (/c/Users/ANDRU/bin:/mingw64/bin:/usr/local
+C:\Program Files\Git\cmd\git.exe
 ## refleccion 
-LAS TERMINALES AYUDAN Y FALICITAN LAS BUSQUEDA DE ARCHIVOS ,CUANDO TRABAJAMOS CON VARIOS
+LAS TERMINALES AYUDAN Y FACILITAN LAS BUSQUEDA DE ARCHIVOS ,CUANDO TRABAJAMOS CON VARIOS DE ELLO

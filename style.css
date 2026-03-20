@@ -7,12 +7,12 @@ body{
     font-family: arial,sans-serif ;
     line-height: 1.6;
     background-color: #d9e2eb;
-    color: red;
     padding: 20px;
+    color: #1a1919;
 }
 header{
     background-color: #d9e2eb;
-    color: #131314;
+    
     padding: 20px;
     text-align: center;
     border-radius: 8px;
@@ -33,16 +33,19 @@ nav ul{
     justify-content: center;
     gap: 20px;
     margin: 20px;
-    background-color: rgb(182, 212, 221);
+    background-color: rgb(236, 184, 197);
+    text-align: center
 }
 nav a{
     text-decoration: none;
     color:#0d0e0d;
     font-weight: bold;
+    text-align: center;
     
 }
 nav a:hover{
-    color: #e01775;
+    color: #e619a1;
+    
 }
 section{
     background-color: #d9e2eb;
@@ -52,4 +55,8 @@ section{
     box-shadow: 0 2px 5px rgba(94, 187, 7, 0.1);
 }
 
-
+ul{
+    width: fit-content;
+    margin: 0 auto;
+    
+}
