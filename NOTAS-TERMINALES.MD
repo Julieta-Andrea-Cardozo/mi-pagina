@@ -36,3 +36,5 @@ lo use para eliminar un documento que cree por error
  # code 
  abre vs code desde la consola
  lo use para abrir mi archivo desde la consola
+ # where git
+ se uso para saber donde esta instalado la aplicacion git
