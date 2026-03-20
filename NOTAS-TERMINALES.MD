@@ -30,4 +30,9 @@ lo use para eliminar un documento que cree por error
   se usa para limpiar la consola
    en se escribe *clear* 
    lo use para limpiar la consola asi pueda trabajar mejor
-
+   # echo hola mundo
+   muestra un mensaje en la consola
+ se usa *echo* "hola mundo"
+ # code 
+ abre vs code desde la consola
+ lo use para abrir mi archivo desde la consola
