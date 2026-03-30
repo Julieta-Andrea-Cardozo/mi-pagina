@@ -88,8 +88,8 @@ input{
     border: 2px solid green;
 }
 input:invalid:not(:placeholder-shown){
-    border: 2px solid rgb(30, 0, 255);
-    box-shadow: 5px lightblue;
+    border: 2px solid rgb(18, 15, 167);
+    box-shadow: 5px rgb(13, 184, 27);
 
 }
 
