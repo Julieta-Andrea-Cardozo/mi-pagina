@@ -1,6 +1,6 @@
-#¿Qué importancia tiene el feedback visual (CSS) para la experiencia del usuario?
+### 1.¿Qué importancia tiene el feedback visual (CSS) para la experiencia del usuario?
 El feedback visual con CSS es fundamental porque le indica al usuario si está interactuando bien con la página sin necesidad de adivinar. Por ejemplo, que los bordes de los campos cambien de color cuando el dato es válido o inválido ayuda a que cualquier persona pueda completar el formulario sin frustrarse. Esto hace que la navegación sea más intuitiva y profesional.
-#¿Cómo ayuda el tablero Kanban a organizar las tareas?
+### 2.¿Cómo ayuda el tablero Kanban a organizar las tareas?
 El tablero Kanban me ayudó a visualizar el progreso real del trabajo y para no olvidarme de ningún requisito del TP.
- #¿Que Beneficios de la metodología ágil? :
+ ### 3.¿Que Beneficios de la metodología ágil? :
 Dividir el proyecto en tareas pequeñas me permitió detectar errores de validación y estilos en ramas separadas antes de afectar la rama principal. Esto facilitó el testeo constante y evitó complicaciones al final del desarrollo. A diferencia del modelo tradicional, pude adaptar el código a medida que avanzaba de forma incremental.
