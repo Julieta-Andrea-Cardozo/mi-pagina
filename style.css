@@ -245,7 +245,7 @@ main{grid-area: main;}
 footer{grid-area: footer;}
 
 .sidebar{
-    background: #c572da;
+    background: #d2abdb;
     padding: 2rem 1rem;
     border-right: 1px solid #f1f5fa;
 }
