@@ -155,7 +155,7 @@ input:focus, textarea:focus, select:focus ¨{
 }
 
 .hero-btn:hover{
-    background: #9333ea;
+    background: #8a0bad;
     transform: translateY(-2px);
 }
 
