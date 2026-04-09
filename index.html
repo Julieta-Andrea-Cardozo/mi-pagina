@@ -2,25 +2,51 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="portafolio julieta cardozo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mi sitio web- cardozo-julieta</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet"href="style.css">
-</head>
+ </head>
+
 <body>
+<div class="layout">
     <header>
-    <h1 style =" font-size: 48px;">Cardozo Julieta Andrea</h1>
-    
-<p style="font-size: 28PX;"> Estudiante de programacio  2 </p>
-<header>
-    <nav>
+   <div class="logo">
+            <h1>julieta cardozo</h1>
+            <p>Estudiante de la tecnicatura superior de analista de sistemas y desarrollador de software</p>
+        </div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#Aptitudes">Aptitudes</a>
+            <a href="#Proyectos">Proyectos</a>
+            <a href="Contacto.html">Contacto</a>
+
+        </nav>
+    </header>
+    <aside class="sidebar">
+        <h3>navegacion</h3>
         <ul>
-<li><a href="#sobre mi">sobre mi</a></li>
-<li><a href="#interese-ideas">interese-ideas</a></li>  
-<li><a href="#Github">Github</a></li>
-<a href="contact.html">contacto</a>
-    </nav>
+        <li><a href="#sobre mi" style="font-size: 20pt;" style >sobre mi </a></li>
+        <li><a href="#interese-ideas"  style="font-size: 20pt;"  >interese-ideas</a></li>  
+        <li><a href="#Github" style="font-size: 20pt;" >Github</a></li>
+        <li><a href="contact.html" style="font-size: 20pt;">contacto</a></li>
+        </ul>
+    </aside>
 
     <main>
+
+         <section id="inicio" class="hero">
+            <div class="hero-contenido">
+                <h1>julieta cardozo</h1>
+                <P class="hero-titulo"> Desarrollador Web Junior<p>
+                <a href="#Proyectos" class="hero-btn">Ver proyectos</a>
+            </div>
+        </section>
+
         <section id="sobre mi" style="text-align: center;">
  <h2>Sobre mi</h2>
  <p style="font-size: 19px;"> Hola soy julieta estudiante de programacio y de practica profecionalizante</p>
@@ -39,7 +65,7 @@
        <a href="https://github.com/julieta-andrea-cardozo"target="_blank">perfil de github</a> 
     </section>
     <section id="envios">
-        <h2>envios</h2>
+    <h2 style="text-align: center;"> Envios</h2>
 
         <ul>
             <li>zona centro </li>
@@ -48,7 +74,7 @@
         </ul>
     </section>
 
-        <h2>sugerencias</h2>
+        <h2 style="text-align: center;"> sugerencias</h2>
 <form onsubmit="event.preventDefault(); alert('¡Datos cargados con éxito!'); this.reset();" 
           style="display: flex; flex-direction: column; max-width: 350px; margin: auto; gap: 15px;">
         
@@ -68,18 +94,54 @@
         <button type="submit" style="background-color: #e01775; color: white; padding: 12px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 16px;">
             CARGAR DATOS
         </button>
-        
     </form>
 </section>
-    </form>
-</section>
-       
-    </section>
-    
+
+     <section id="Proyectos">
+            <h2>Mis proyectos</h2>
+
+            <div class="Tarjetas">
+
+                <div class="Tarjeta">
+                    <h3>Proyectos N°1</h3>
+                    <p>Mi primer proyecto fue buscar sugerencias para hacer una pagina que se dedique solo a la venta de impresion 3d  </p>
+                </div>
+
+                <div class="Tarjeta">
+                    <h3>Proyecto N°2</h3>
+                    <p>Mi segundo proyecto va a ser aprender y usar bases de datos y mejorar en python</p>
+                </div>
+
+                <div class="Tarjeta">
+                    <h3>Proyecto N°3</h3>
+                    <p>Mi tercer proyecto es implementar chats bots y logistica</p>
+
+                </div>
+
+                <div class="Tarjeta">
+                    <h3>Proyecto N°4</h3>
+                    <p>Mi cuarto proyecto es aprender a agializar las ventas y hacer una sociedad con otras personas que se dediquen a la impresion 3D</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
     <footer>
         <p>&copy;2026 julieta Cardozo.todos los derechos reservados.</p>
+        <div class="redes">
+            <a href=https://github.com/Julieta-Andrea-Cardozo/mi-pagina
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/_.andru_530?igsh=MWduZ3dqeXo2aDhnNA== " target="_blank" aria-label="instagram de julieta">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
     </footer>
+    </div>
     <body>
     
         </html>
