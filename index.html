@@ -1,147 +1,232 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="portafolio julieta cardozo">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mi sitio web- cardozo-julieta</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet"href="style.css">
- </head>
-
-<body>
-<div class="layout">
-    <header>
-   <div class="logo">
-            <h1>julieta cardozo</h1>
-            <p>Estudiante de la tecnicatura superior de analista de sistemas y desarrollador de software</p>
-        </div>
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#Aptitudes">Aptitudes</a>
-            <a href="#Proyectos">Proyectos</a>
-            <a href="Contacto.html">Contacto</a>
-
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Julieta Cardozo | Desarrolladora Frontend</title>
+    <meta
+      name="description"
+      content="Portfolio de Julieta Cardozo, desarrolladora frontend de Salta. Proyectos con React, JavaScript, HTML, CSS, Bootstrap y PHP."
+    />
+    <meta property="og:title" content="Julieta Cardozo | Desarrolladora Frontend" />
+    <meta
+      property="og:description"
+      content="Portfolio de Julieta Cardozo, desarrolladora frontend de Salta. Proyectos con React, JavaScript, HTML, CSS, Bootstrap y PHP."
+    />
+    <meta property="og:image" content="https://julieta-andrea-cardozo.github.io/mi-pagina/img/boxly-ordenes.jpg" />
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+    <header class="nav">
+      <div class="container nav__inner">
+        <a class="nav__brand" href="#inicio">Julieta Cardozo</a>
+        <nav aria-label="Principal">
+          <ul class="nav__links">
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
         </nav>
+      </div>
     </header>
-    <aside class="sidebar">
-        <h3>navegacion</h3>
-        <ul>
-        <li><a href="#sobre mi" style="font-size: 20pt;" style >sobre mi </a></li>
-        <li><a href="#interese-ideas"  style="font-size: 20pt;"  >interese-ideas</a></li>  
-        <li><a href="#Github" style="font-size: 20pt;" >Github</a></li>
-        <li><a href="contact.html" style="font-size: 20pt;">contacto</a></li>
-        </ul>
-    </aside>
 
-    <main>
-
-         <section id="inicio" class="hero">
-            <div class="hero-contenido">
-                <h1>julieta cardozo</h1>
-                <P class="hero-titulo"> Desarrollador Web Junior<p>
-                <a href="#Proyectos" class="hero-btn">Ver proyectos</a>
+    <main id="contenido">
+      <section id="inicio" class="hero">
+        <div class="container hero__inner">
+          <div class="hero__text">
+            <p class="eyebrow">Salta, Argentina</p>
+            <h1>Hola, soy Julieta Cardozo</h1>
+            <p class="hero__role">Desarrolladora Frontend · React · JavaScript</p>
+            <p class="hero__lead">
+              Estudio la Tecnicatura Superior en Análisis de Sistemas y construyo interfaces web
+              claras, accesibles y que se ven bien en el celular.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="cv/Cardozo_Julieta_CV.pdf" download>Descargar CV (PDF)</a>
+              <a class="btn" href="#proyectos">Ver proyectos</a>
             </div>
-        </section>
-
-        <section id="sobre mi" style="text-align: center;">
- <h2>Sobre mi</h2>
- <p style="font-size: 19px;"> Hola soy julieta estudiante de programacio y de practica profecionalizante</p>
- <img src="imagen/july.jpeg" alt="imagen" style="width: 200px; border-radius: 30px; display: block;margin:0 auto;">
- 
-    </section>
-
-    <section id="interese-ideas" style="text-align: center;">
-
-    <h2 style="font-size: 24px;"> Mi ideas e interese</h2 >
-        <p style="font-size: 19px;"> La idea para este proyecto es usar la programacion para facilitar las ventas de articulos en 3D para que sea mas facil vender por internet </p>
-    <img src="imagen/vaso.jpeg" alt="imagen" style="width: 200px; border-radius: 30px; display: block;margin: auto;" >
-    </section>
-    <section id="Github" style="text-align: center;">
-        <h2>Github</h2>
-       <a href="https://github.com/julieta-andrea-cardozo"target="_blank">perfil de github</a> 
-    </section>
-    <section id="envios">
-    <h2 style="text-align: center;"> Envios</h2>
-
-        <ul>
-            <li>zona centro </li>
-            <li>zona san lorenzo</li>
-
-        </ul>
-    </section>
-
-        <h2 style="text-align: center;"> sugerencias</h2>
-<form onsubmit="event.preventDefault(); alert('¡Datos cargados con éxito!'); this.reset();" 
-          style="display: flex; flex-direction: column; max-width: 350px; margin: auto; gap: 15px;">
-        
-
-        <input type="text" name="nombre" placeholder="Nombre completo" required minlength="2"
-               style="padding: 12px; border-radius: 8px; border: 1px solid #ccc; font-size: 16px;">
-
-
-        <input type="email" name="email" placeholder="email" required 
-               style="padding: 12px; border-radius: 8px; border: 1px solid #ccc; font-size: 16px;">
-
-
-        <textarea name="sugerencia" placeholder="Escribe aquí tu sugerencia..." required minlength="20"
-                  style="padding: 12px; border-radius: 8px; border: 1px solid #ccc; font-size: 16px; height: 100px; resize: none;"></textarea>
-
-
-        <button type="submit" style="background-color: #e01775; color: white; padding: 12px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 16px;">
-            CARGAR DATOS
-        </button>
-    </form>
-</section>
-
-     <section id="Proyectos">
-            <h2>Mis proyectos</h2>
-
-            <div class="Tarjetas">
-
-                <div class="Tarjeta">
-                    <h3>Proyectos N°1</h3>
-                    <p>Mi primer proyecto fue buscar sugerencias para hacer una pagina que se dedique solo a la venta de impresion 3d  </p>
-                </div>
-
-                <div class="Tarjeta">
-                    <h3>Proyecto N°2</h3>
-                    <p>Mi segundo proyecto va a ser aprender y usar bases de datos y mejorar en python</p>
-                </div>
-
-                <div class="Tarjeta">
-                    <h3>Proyecto N°3</h3>
-                    <p>Mi tercer proyecto es implementar chats bots y logistica</p>
-
-                </div>
-
-                <div class="Tarjeta">
-                    <h3>Proyecto N°4</h3>
-                    <p>Mi cuarto proyecto es aprender a agializar las ventas y hacer una sociedad con otras personas que se dediquen a la impresion 3D</p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-    <footer>
-        <p>&copy;2026 julieta Cardozo.todos los derechos reservados.</p>
-        <div class="redes">
-            <a href=https://github.com/Julieta-Andrea-Cardozo/mi-pagina
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.instagram.com/_.andru_530?igsh=MWduZ3dqeXo2aDhnNA== " target="_blank" aria-label="instagram de julieta">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-
+          </div>
+          <img
+            class="hero__photo"
+            src="img/julieta.jpg"
+            width="480"
+            height="480"
+            alt="Foto de Julieta Cardozo, con anteojos y remera negra"
+          />
         </div>
+      </section>
+
+      <section id="sobre-mi" class="section">
+        <div class="container narrow">
+          <h2>Sobre mí</h2>
+          <p>
+            Soy estudiante de la Tecnicatura Superior en Análisis de Sistemas en el IES N° 6.001 de
+            Salta. Me enfoco en el frontend: maqueto con HTML semántico y CSS, programo con
+            JavaScript moderno y armo aplicaciones con React y Tailwind CSS.
+          </p>
+          <p>
+            Trabajé en equipo con Scrum en <strong>Boxly</strong>, un sistema de gestión para
+            talleres mecánicos, donde desarrollé los módulos de clientes, vehículos, agenda y turnos
+            y los conecté a una API REST. Me importa que las interfaces sean fáciles de usar,
+            accesibles y rápidas.
+          </p>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section section--alt">
+        <div class="container">
+          <h2>Proyectos</h2>
+          <div class="projects">
+            <article class="project">
+              <img
+                src="img/boxly-ordenes.jpg"
+                width="1200"
+                height="750"
+                loading="lazy"
+                alt="Tablero de órdenes de Boxly con columnas por etapa y tarjetas de cada auto con patente, cliente y mecánico"
+              />
+              <div class="project__body">
+                <h3>Boxly: gestión de taller mecánico</h3>
+                <p>
+                  Sistema web para talleres: clientes, vehículos, órdenes de trabajo, repuestos,
+                  turnos, cobros con Mercado Pago y portal para el cliente. Proyecto grupal de 4
+                  personas con Scrum en sprints de 2 semanas.
+                </p>
+                <p class="project__role">
+                  <strong>Mi rol:</strong> Frontend. Desarrollé los módulos de clientes, vehículos,
+                  agenda y turnos, el autocompletado por patente, las fotos e historial de las
+                  órdenes, y conecté el login y la sesión con la API.
+                </p>
+                <ul class="tags" aria-label="Tecnologías">
+                  <li>React 18</li>
+                  <li>Vite</li>
+                  <li>Tailwind CSS</li>
+                  <li>FastAPI</li>
+                  <li>PostgreSQL</li>
+                  <li>JWT</li>
+                </ul>
+                <div class="project__links">
+                  <a href="https://github.com/Antony27c/Boxly" target="_blank" rel="noopener">Repositorio</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <img
+                src="img/barismo.jpg"
+                width="1200"
+                height="750"
+                loading="lazy"
+                alt="Página de inicio de Barismo y Café con el título El café como disciplina y tazas de café con arte latte"
+              />
+              <div class="project__body">
+                <h3>Barismo &amp; Café</h3>
+                <p>
+                  Sitio de una cafetería de especialidad con 10 vistas: menú, galería de arte latte,
+                  talleres, tienda con carrito y contacto. Luego lo migré a PHP con MySQL, login,
+                  roles y un panel de administración.
+                </p>
+                <p class="project__role">
+                  <strong>Mi rol:</strong> Proyecto individual. Diseñé los wireframes en Figma,
+                  maqueté las vistas y logré 100/100 en accesibilidad con Lighthouse.
+                </p>
+                <ul class="tags" aria-label="Tecnologías">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Bootstrap 5</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                  <li>MySQL</li>
+                </ul>
+                <div class="project__links">
+                  <a href="https://github.com/Julieta-Andrea-Cardozo/programacion_WEB" target="_blank" rel="noopener">Repositorio</a>
+                  <a href="https://julieta-andrea-cardozo.github.io/programacion_WEB/" target="_blank" rel="noopener">Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <img
+                src="img/tp4.jpg"
+                width="1200"
+                height="750"
+                loading="lazy"
+                alt="Pokédex con tarjetas de Pokémon que muestran imagen, número y tipo, obtenidas de la PokéAPI"
+              />
+              <div class="project__body">
+                <h3>Mini apps con JavaScript</h3>
+                <p>
+                  Tres aplicaciones interactivas: un catálogo con 4 filtros combinados en tiempo
+                  real, una lista de tareas con contador y una Pokédex que consume la PokéAPI con
+                  búsqueda y manejo de errores.
+                </p>
+                <p class="project__role">
+                  <strong>Mi rol:</strong> Proyecto individual. Programé toda la lógica con
+                  JavaScript ES6+, Fetch API y async/await.
+                </p>
+                <ul class="tags" aria-label="Tecnologías">
+                  <li>JavaScript ES6+</li>
+                  <li>Fetch API</li>
+                  <li>HTML5</li>
+                  <li>CSS Grid</li>
+                </ul>
+                <div class="project__links">
+                  <a href="https://github.com/Julieta-Andrea-Cardozo/trabajo-practico-N4" target="_blank" rel="noopener">Repositorio</a>
+                  <a href="https://julieta-andrea-cardozo.github.io/trabajo-practico-N4/" target="_blank" rel="noopener">Demo</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades" class="section">
+        <div class="container narrow">
+          <h2>Habilidades</h2>
+          <ul class="skills">
+            <li>HTML5 semántico</li>
+            <li>CSS3 (Flexbox, Grid)</li>
+            <li>JavaScript ES6+</li>
+            <li>React</li>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap 5</li>
+            <li>PHP</li>
+            <li>MySQL / PostgreSQL</li>
+            <li>APIs REST</li>
+            <li>Git y GitHub</li>
+            <li>Figma</li>
+            <li>Accesibilidad web</li>
+            <li>Scrum y Trello</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contacto" class="section section--alt">
+        <div class="container narrow contact">
+          <h2>Contacto</h2>
+          <p>¿Tenés una propuesta o querés charlar sobre un proyecto? Escribime.</p>
+          <ul class="contact__list">
+            <li><span>Email</span><a href="mailto:julietacardozo764@gmail.com">julietacardozo764@gmail.com</a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/julietacardozo30" target="_blank" rel="noopener">linkedin.com/in/julietacardozo30</a></li>
+            <li><span>GitHub</span><a href="https://github.com/Julieta-Andrea-Cardozo" target="_blank" rel="noopener">github.com/Julieta-Andrea-Cardozo</a></li>
+          </ul>
+          <a class="btn btn--primary" href="cv/Cardozo_Julieta_CV.pdf" download>Descargar CV (PDF)</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">© 2026 Julieta Cardozo</div>
     </footer>
-    </div>
-    <body>
-    
-        </html>
+  </body>
+</html>

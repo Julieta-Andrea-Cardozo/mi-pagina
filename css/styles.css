@@ -1,0 +1,80 @@
+:root {
+  --bg: #fbf8f4;
+  --bg-alt: #f2ece4;
+  --text: #2b2420;
+  --muted: #6b5f57;
+  --accent: #8a3b5c;
+  --accent-dark: #6d2c48;
+  --card: #ffffff;
+  --border: #e3d9cf;
+  --radius: 14px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--accent); }
+a:hover { color: var(--accent-dark); }
+h1, h2, h3 { font-family: "Space Grotesk", "Inter", sans-serif; line-height: 1.2; margin: 0 0 0.6em; }
+h2 { font-size: clamp(1.6rem, 4vw, 2.2rem); }
+.container { width: min(1100px, 92%); margin: 0 auto; }
+.narrow { max-width: 760px; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: 1rem; background: var(--card); padding: 0.5rem 1rem; z-index: 10; }
+
+.nav { position: sticky; top: 0; z-index: 5; background: rgba(251, 248, 244, 0.95); border-bottom: 1px solid var(--border); }
+.nav__inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.9rem 0; flex-wrap: wrap; }
+.nav__brand { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 1.15rem; color: var(--text); text-decoration: none; }
+.nav__links { list-style: none; display: flex; gap: 1.25rem; margin: 0; padding: 0; flex-wrap: wrap; }
+.nav__links a { color: var(--muted); text-decoration: none; font-weight: 500; }
+.nav__links a:hover { color: var(--accent); }
+
+.hero { padding: clamp(3rem, 8vw, 6rem) 0; }
+.hero__inner { display: grid; grid-template-columns: 1.4fr 1fr; gap: 3rem; align-items: center; }
+.eyebrow { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.8rem; color: var(--muted); margin: 0 0 0.75rem; }
+.hero h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); }
+.hero__role { font-size: 1.25rem; font-weight: 600; color: var(--accent); margin: 0 0 1rem; }
+.hero__lead { font-size: 1.1rem; color: var(--muted); max-width: 34rem; }
+.hero__actions { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.5rem; }
+.hero__photo { width: 100%; max-width: 360px; justify-self: center; border-radius: 50%; border: 6px solid var(--card); box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12); }
+
+.btn { display: inline-block; padding: 0.75rem 1.3rem; border-radius: 999px; border: 2px solid var(--accent); color: var(--accent); text-decoration: none; font-weight: 600; }
+.btn:hover { background: var(--bg-alt); }
+.btn--primary { background: var(--accent); color: #fff; }
+.btn--primary:hover { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; }
+
+.section { padding: clamp(3rem, 7vw, 5rem) 0; }
+.section--alt { background: var(--bg-alt); }
+
+.projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.75rem; }
+.project { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
+.project img { aspect-ratio: 16 / 10; object-fit: cover; object-position: top; border-bottom: 1px solid var(--border); }
+.project__body { padding: 1.25rem 1.4rem 1.5rem; display: flex; flex-direction: column; flex: 1; }
+.project__body p { margin: 0 0 0.8rem; }
+.project__role { color: var(--muted); font-size: 0.95rem; }
+.tags { list-style: none; padding: 0; margin: 0.25rem 0 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.tags li { background: var(--bg-alt); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.82rem; font-weight: 500; }
+.project__links { margin-top: auto; display: flex; gap: 1.25rem; font-weight: 600; }
+
+.skills { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.skills li { background: var(--card); border: 1px solid var(--border); border-radius: 999px; padding: 0.45rem 1rem; font-weight: 500; }
+
+.contact__list { list-style: none; padding: 0; margin: 1.25rem 0 1.75rem; display: grid; gap: 0.75rem; }
+.contact__list li { display: flex; gap: 1rem; flex-wrap: wrap; }
+.contact__list span { min-width: 5.5rem; font-weight: 600; }
+.contact__list a { word-break: break-all; }
+
+.footer { padding: 2rem 0; text-align: center; color: var(--muted); font-size: 0.9rem; }
+
+@media (max-width: 760px) {
+  .hero__inner { grid-template-columns: 1fr; gap: 2rem; }
+  .hero__photo { order: -1; max-width: 200px; }
+  .nav__inner { justify-content: center; }
+  .nav__links { justify-content: center; gap: 1rem; font-size: 0.95rem; }
+}
